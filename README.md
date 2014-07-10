@@ -8,6 +8,12 @@ Recent changes
 
 =========
 
+version 0.0.02
+
+- added game decision class
+- added easy game algorithm
+- added checks for game completion
+
 version 0.0.01
 
 - start working on the basic UI
