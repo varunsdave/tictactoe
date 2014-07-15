@@ -30,30 +30,33 @@
             android:padding="10dp" >
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/b01"
                 style="?android:attr/borderlessButtonStyle"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_marginRight="5sp"
                 android:background="@drawable/white"
+                android:onClick="gameBoardClick"
                 android:text="@string/empty_game_button" />
 
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/b02"
                 style="?android:attr/borderlessButtonStyle"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_marginRight="5sp"
                 android:background="@drawable/white"
+                android:onClick="gameBoardClick"
                 android:text="@string/empty_game_button" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/b03"
                 style="?android:attr/borderlessButtonStyle"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_marginRight="5sp"
                 android:background="@drawable/white"
+                android:onClick="gameBoardClick"
                 android:text="@string/empty_game_button" />
         </TableRow>
 
@@ -61,74 +64,75 @@
             android:id="@+id/tableRow2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding = "10dp" >
+            android:padding="10dp" >
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/b04"
+                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-               android:layout_marginRight="5sp"  
+                android:layout_marginRight="5sp"
                 android:background="@drawable/white"
-                android:text="@string/empty_game_button"
-                 style="?android:attr/borderlessButtonStyle" />
+                android:onClick="gameBoardClick"
+                android:text="@string/empty_game_button" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/b05"
+                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                 android:layout_marginRight="5sp"
+                android:layout_marginRight="5sp"
                 android:background="@drawable/white"
-                android:text="@string/empty_game_button"
-                 style="?android:attr/borderlessButtonStyle" />
+                android:onClick="gameBoardClick"
+                android:text="@string/empty_game_button" />
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/b06"
+                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="5sp" 
+                android:layout_marginRight="5sp"
                 android:background="@drawable/white"
-                android:text="@string/empty_game_button" 
-                 style="?android:attr/borderlessButtonStyle"/>
-
+                android:onClick="gameBoardClick"
+                android:text="@string/empty_game_button" />
         </TableRow>
 
         <TableRow
             android:id="@+id/tableRow3"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" 
-            android:padding="10dp">
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/b07"
+                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="5sp"
                 android:background="@drawable/white"
-               android:layout_marginRight="5sp"  
-                android:text="@string/empty_game_button"
-                 style="?android:attr/borderlessButtonStyle" />
+                android:onClick="gameBoardClick"
+                android:text="@string/empty_game_button" />
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/b08"
+                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                 android:layout_marginRight="5sp"
+                android:layout_marginRight="5sp"
                 android:background="@drawable/white"
-                android:text="@string/empty_game_button"
-                 style="?android:attr/borderlessButtonStyle" />
+                android:onClick="gameBoardClick"
+                android:text="@string/empty_game_button" />
 
             <Button
-                android:id="@+id/button9"
+                android:id="@+id/b09"
+                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-              android:layout_marginRight="5sp"   
+                android:layout_marginRight="5sp"
                 android:background="@drawable/white"
-                android:text="@string/empty_game_button" 
-                
-                style="?android:attr/borderlessButtonStyle"/>
-
+                android:onClick="gameBoardClick"
+                android:text="@string/empty_game_button" />
         </TableRow>
-
-       
     </TableLayout>
 
 </RelativeLayout>

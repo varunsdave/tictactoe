@@ -83,6 +83,7 @@ public class GameDecisions {
     	if (moveLocation == -1){
     		moveLocation = randomSpotEasyPosition();
     	}
+    	assignMove(moveLocation,"computer");
     	return moveLocation;
     }
     
