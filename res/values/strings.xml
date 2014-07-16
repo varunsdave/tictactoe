@@ -5,5 +5,6 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Let\'s Play! </string>
     <string name="empty_game_button"> </string>
+    <string name="beginGame">New Game</string>
 
 </resources>

@@ -95,7 +95,7 @@ public class GameDecisions {
     	ArrayList<Integer> emptyPositions = new ArrayList<Integer>();
     	
     	for (int i =0; i < BOARD_SIZE; i++){
-    		if (gameBoard[i] == X_VALUE || gameBoard[i] == O_VALUE){
+    		if (gameBoard[i] == EMPTY_VALUE){
     			emptyPositions.add(i);
     		}
     	}
@@ -116,6 +116,7 @@ public class GameDecisions {
     	return true;
     }
     
+	
 	// finds if the game has finished. 
 	// returns an int to determine which player has one
 	// 0 == tie

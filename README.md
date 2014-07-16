@@ -8,6 +8,13 @@ Recent changes
 
 =========
 
+version 0.0.03
+
+- added front end logic
+- added new game and reset feature
+- added labels to be used for information in later update
+- modified bugs in game logic 
+
 version 0.0.02
 
 - added game decision class
